@@ -39,7 +39,7 @@ ORDER BY total_order_cost DESC;
 
 
 
-<img src="asset/md-images/image-20220206202330186.png" alt="image-20220206202330186" style="width:70%;" />
+<img src="assets/md-images/image-20220206202330186.png" alt="image-20220206202330186" style="width:70%;" />
 
 - 현재까지 매출액이 있는 고객의 수는 15개의 company이다.
 
@@ -71,7 +71,7 @@ ORDER BY total_quantity desc;
 
 
 
-<img src="asset/md-images/image-20220206202503068.png" alt="image-20220206202503068" style="width:80%;" />
+<img src="assets/md-images/image-20220206202503068.png" alt="image-20220206202503068" style="width:80%;" />
 
 - Coffee 가 전체 판매량의 22.1%
 - Beer 가 전체 판매량의 16.6%
@@ -100,7 +100,7 @@ ORDER BY total_income desc;
 
 
 
-<img src="asset/md-images/image-20220206202602216.png" alt="image-20220206202602216" style="width:90%;" />
+<img src="assets/md-images/image-20220206202602216.png" alt="image-20220206202602216" style="width:90%;" />
 
 
 
@@ -130,7 +130,7 @@ order by num_of_company desc;
 
 
 
-<img src="asset/md-images/image-20220206202742666.png" alt="image-20220206202742666" style="width:80%;" />
+<img src="assets/md-images/image-20220206202742666.png" alt="image-20220206202742666" style="width:80%;" />
 
 - 고객 수가 5인 상품은 Coffee, Chocolate 이다.
 - 고객 수 가 4인 상품은 Curry Sauce, Chocolate Biscuits Mix, Clam Chowder, Dried Plums, Green Tea 이다.
@@ -150,7 +150,7 @@ group by category;
 
 
 
-<img src="asset/md-images/image-20220206202930818.png" alt="image-20220206202930818" style="width:80%;" />
+<img src="assets/md-images/image-20220206202930818.png" alt="image-20220206202930818" style="width:80%;" />
 
 - 총 카테고리 수는 16가지, 총 상품 수는 45가지 이며,
 - 각 카테고리 별 상품 수는 Canned Fruit & Vegetables(17.8%) > Beverages(11.1%) = Dried Fruit & Nuts(11.1%) 순이다.
@@ -174,7 +174,7 @@ ORDER BY sum(quantity) AS total_quantity;
 
 
 
-<img src="asset/md-images/image-20220206203036275.png" alt="image-20220206203036275" style="width:80%;" />
+<img src="assets/md-images/image-20220206203036275.png" alt="image-20220206203036275" style="width:80%;" />
 
 - Beverages가 전체 판매량의 49.4%
 - Soups가 전체 판매량의 9.86%
@@ -199,7 +199,7 @@ order by num_of_company desc;
 
 
 
-<img src="asset/md-images/image-20220206203127733.png" alt="image-20220206203127733" style="width:80%;" />
+<img src="assets/md-images/image-20220206203127733.png" alt="image-20220206203127733" style="width:80%;" />
 
 - 고객 수가 5인 카테고리는 Beverages, Candy
 - 고객 수가 4인 카테고리는 Baked Goods & Mixes, Dried Fruit & Nuts, Sauces, Soups 이다.
@@ -223,7 +223,7 @@ order by total_income desc;
 
 
 
-<img src="asset/md-images/image-20220206203205063.png" alt="image-20220206203205063" style="width:80%;" />
+<img src="assets/md-images/image-20220206203205063.png" alt="image-20220206203205063" style="width:80%;" />
 
 - Baverages가 전체 소득액의 56.2%
 - Jams, Preserves가 전체 소득액의 8.42%
@@ -249,7 +249,7 @@ order by ym;
 
 
 
-<img src="asset/md-images/image-20220206203238287.png" alt="image-20220206203238287" style="width:80%;" />
+<img src="assets/md-images/image-20220206203238287.png" alt="image-20220206203238287" style="width:80%;" />
 
 - 1,2월달에는 매출이 저조했다.
 - 3,4월달에 매출이 특히 높아졌다.
@@ -278,7 +278,7 @@ order by ym;
 
 - 지표1 : 고객 별 매출액
 
-  <img src="asset/md-images/image-20220206203505891.png" alt="image-20220206203505891" style="width:80%;" />
+  <img src="assets/md-images/image-20220206203505891.png" alt="image-20220206203505891" style="width:80%;" />
 
   
 
@@ -294,7 +294,7 @@ order by ym;
 
 - 지표2 : 회사 별 각 카테고리가 차지하는 매출의 비율
 
-  <img src="asset/md-images/image-20220206203625501.png" alt="image-20220206203625501" style="width:80%;" />
+  <img src="assets/md-images/image-20220206203625501.png" alt="image-20220206203625501" style="width:80%;" />
 
   
 
@@ -308,7 +308,7 @@ order by ym;
 
 - 지표3 : 회사 별 각 상품이 차지하는 매출의 비율
 
-  <img src="asset/md-images/image-20220206203733241.png" alt="image-20220206203733241" style="width:70%;" />
+  <img src="assets/md-images/image-20220206203733241.png" alt="image-20220206203733241" style="width:70%;" />
 
   
 
@@ -351,7 +351,7 @@ order by ym;
 
 - 지표1 : 월별 매출액
 
-  <img src="asset/md-images/image-20220206204121246.png" alt="image-20220206204121246" style="width:70%;" />
+  <img src="assets/md-images/image-20220206204121246.png" alt="image-20220206204121246" style="width:70%;" />
 
   
 
@@ -364,7 +364,7 @@ order by ym;
 
 - 지표2 : 월별 각 상품이 차지하는 매출의 비율
 
-  <img src="asset/md-images/image-20220206204249438.png" alt="image-20220206204249438" style="width:70%;" />
+  <img src="assets/md-images/image-20220206204249438.png" alt="image-20220206204249438" style="width:70%;" />
 
   
 
@@ -381,7 +381,7 @@ order by ym;
 
 - 지표 3 : 월&고객 별 매출액
 
-  <img src="asset/md-images/image-20220206204632363.png" alt="image-20220206204632363" style="width:70%;" />
+  <img src="assets/md-images/image-20220206204632363.png" alt="image-20220206204632363" style="width:70%;" />
 
   
 
